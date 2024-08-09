@@ -5,7 +5,7 @@ import { Content, Footer, Header } from "antd/es/layout/layout";
 import Sider from "antd/es/layout/Sider";
 import SignIn from "@/components/sign-in";
 import { signIn } from "@/services/auth"
-import IsAuth from "@/components/isAuth";
+import IsAuth from "@/components/IsAuth";
 import { SessionProvider } from "next-auth/react";
 
 type Values = {

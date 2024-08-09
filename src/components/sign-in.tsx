@@ -4,13 +4,13 @@ import React from "react"
 
 import { Form, Input, Button } from "antd"
 
-export default function SignIn({ handlerOnFinish}) {
+export default function SignIn({ handlerOnFinish }: { handlerOnFinish: any }) {
 
 
   return (
     <Form
       onFinish={handlerOnFinish}
-      style={{padding:20}}
+      style={{ padding: 20 }}
     >
       <Form.Item
         label="Email"
@@ -28,7 +28,7 @@ export default function SignIn({ handlerOnFinish}) {
 
       </Form.Item>
       <Form.Item>
-        <Button  block type="primary" htmlType="submit">Sign In</Button>
+        <Button block type="primary" htmlType="submit">Sign In</Button>
       </Form.Item>
     </Form>
   )
